@@ -531,6 +531,8 @@
                         selectionText.innerText = clickElements.length+" élément sélectionné";
                 }
             });
+            element.addEventListener("mouseover", function () { this.style.border = "1px solid #888"; });
+            element.addEventListener("mouseout", function () { this.style.border = ""; });
         }</script>
 </body>
 
